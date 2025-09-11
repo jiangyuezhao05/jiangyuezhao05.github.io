@@ -39,7 +39,7 @@ Connections
 ===========
 
 <figure style="display: inline-block; margin: 20px auto; text-align: center;">
-  <img src=""/images/chris.jpg"" style="max-width: 80%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
+  <img src="/images/chris.jpg" style="max-width: 80%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
   <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
     A picture of Prof. Chris T. Ryan with me. August, 2025, Shanghai.
   </figcaption>
