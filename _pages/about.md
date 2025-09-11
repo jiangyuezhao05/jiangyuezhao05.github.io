@@ -22,7 +22,7 @@ Current Research
 
 <p>
   I am fortunate to be advised by  
-  <a href="https://www.hkubs.hku.hk/people/yulin-fang/" target="_blank">Prof. YulinFang</a>, 
+  <a href="https://www.hkubs.hku.hk/people/yulin-fang/" target="_blank">Prof. Yulin Fang</a>, 
   <a href="https://scholars.hkbu.edu.hk/en/persons/JICHENGZENG" target="_blank">Prof. Jicheng Zeng</a>, and 
   <a href="http://sem.bjtu.edu.cn/show-594-298.html" target="_blank">Prof. Xiaocheng Liu</a>, 
   as well as 
