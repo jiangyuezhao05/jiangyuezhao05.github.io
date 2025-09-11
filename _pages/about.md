@@ -27,7 +27,7 @@ Current Research
   <a href="http://sem.bjtu.edu.cn/show-594-298.html" target="_blank">Prof. Liu Xiaocheng</a>, 
   as well as 
   <a href="https://christopher-thomas-ryan.github.io/" target="_blank">Prof. Chris T. Ryan</a> and 
-  <a href="https://runshanfu.com/" target="_blank">Runshan Fu</a>.
+  <a href="https://runshanfu.com/" target="_blank">Prof. Runshan Fu</a>.
 </p>
 
 <p>
@@ -51,4 +51,4 @@ Other words
 
 I enjoy reading and writing very much, usually in Chinese.
 
-I hope this webiste to be a good start for me to share my opinions and thoughts on daily life, study, and research, whatever, in English. :)
+I hope this webiste to be a good start for me to share my opinions and thoughts on daily life, study and research, whatever, in English. :)
