@@ -7,19 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-About Me
-======
 Hi, this is Jiangyue! I am a third-year undergraduate student at the School of Information Management and Engineering (SIME), Shanghai University of Finance and Economics (SUFE).
 
 I am fortunate to be part of the Pilot Class of Interdisciplinary Science, co-organized by RIIS and ITCS, where I receive interdisciplinary training in operations research, computer science, and economics.
 
-My current research interests lie at the intersection of Information Systems (IS) and Economics. More specifically, I employ statistical and econometric methods to empirically examine human–technology interactions through the lens of behavioral economics.
+My research interests lie at the intersection of Information Systems (IS) and Economics. More specifically, I employ statistical and econometric methods to empirically examine human–technology interactions through the lens of behavioral economics.
 
 
 Current Research
 ======
 <p>
-  My recent research interests focus on the intersection of artificial intelligence (AI), algorithmic biases, and behavioral economics. 
+  My recent research focus on the intersection of artificial intelligence (AI), algorithmic biases, and behavioral economics. 
   I am particularly interested in how human behavior interacts with AI platforms and algorithms, and how these dynamics can be better understood through the lens of behavioral economics.
 </p>
 
@@ -42,13 +40,12 @@ Current Research
 
 Connections
 ======
-<figure style="text-align: center;">
-  <img src="/assets/images/chris.jpg" alt="Prof. Chris T. Ryan with me" width="400"/>
-  <figcaption style="font-style: italic; margin-top: 8px;">
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="prof_ryan.jpg" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
     A picture of Prof. Chris T. Ryan with me. August, 2025, Shanghai.
   </figcaption>
 </figure>
-
 I feel very fortunate to have had the opportunity to host and engage in in-depth conversations with Chris. He has provided me with invaluable advice on my academic career, life choices, and even philosophical topics.
 
 
