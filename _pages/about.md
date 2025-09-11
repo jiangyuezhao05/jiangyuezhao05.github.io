@@ -37,14 +37,14 @@ Current Research
 
 Connections
 ===========
-
+I feel very fortunate to have had the opportunity to host and engage in in-depth conversations with Chris. He has provided me with invaluable advice on my academic career, life choices, and even philosophical topics.
 <figure style="display: inline-block; margin: 20px auto; text-align: center;">
   <img src="/images/chris.jpg" style="max-width: 70%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
   <figcaption style="margin-top: 10px; font-size: 16px; color: #666;">
     A picture of Prof. Chris T. Ryan with me. August, 2025, Shanghai.
   </figcaption>
 </figure>
-I feel very fortunate to have had the opportunity to host and engage in in-depth conversations with Chris. He has provided me with invaluable advice on my academic career, life choices, and even philosophical topics.
+
 
 Other words
 ===========
