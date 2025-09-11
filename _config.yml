@@ -23,12 +23,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Jiangyue.jpg"
+  avatar           : "jasmine.jpg"
   name             : "Jiangyue Zhao(赵江玥)"
   pronouns         : # example: "she/her"  
   bio              : "Salvation lies within."
   location         : "Shanghai, China"
-  employer         : "Shanghai University of Finance and Economics"
+  employer         : "Shanghai University of\Finance and Economics"
   uri              : # URL
   email            : "jiangyuezhao05@gmail.com" 
 
