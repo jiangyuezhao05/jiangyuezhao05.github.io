@@ -40,8 +40,8 @@ Current Research
 
 Connections
 ======
-<figure style="text-align: center; margin: 20px 0;">
-  <img src="prof_ryan.jpg" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
+<figure style="display: inline-block; margin: 20px auto; text-align: center;">
+  <img src="chris.jpg" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
   <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
     A picture of Prof. Chris T. Ryan with me. August, 2025, Shanghai.
   </figcaption>
