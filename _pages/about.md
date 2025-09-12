@@ -6,11 +6,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, this is Jiangyue! I am a third-year undergraduate student at the School of Information Management and Engineering (SIME), Shanghai University of Finance and Economics (SUFE).
+<p>
+  Hi, this is Jiangyue! I am a third-year undergraduate student at the School of Information Management and Engineering (SIME), 
+  <a href="https://www.sufe.edu.cn/" target="_blank" rel="noopener">Shanghai University of Finance and Economics (SUFE)</a>.
+</p>
 
-I am fortunate to be part of the Pilot Class of Interdisciplinary Science, co-organized by RIIS and ITCS, where I receive interdisciplinary training in operations research, computer science, and economics.
+<p>
+  I am fortunate to be part of the Pilot Class of Interdisciplinary Science, co-organized by 
+  <a href="https://riis.sufe.edu.cn/jxChinese/" target="_blank" rel="noopener">RIIS</a> and 
+  <a href="https://itcs.sufe.edu.cn/" target="_blank" rel="noopener">ITCS</a>, where I receive interdisciplinary training in operations research, computer science, and economics.
+</p>
 
-My research interests lie at the intersection of Information Systems (IS) and Economics. More specifically, I employ statistical and econometric methods to empirically examine human–technology interactions through the lens of behavioral economics.
+<p>
+  My research interests lie at the intersection of Information Systems (IS) and Economics. More specifically, I employ statistical and econometric methods to empirically examine human–technology interactions through the lens of behavioral economics.
+</p>
+
 
 Current Research
 ================
