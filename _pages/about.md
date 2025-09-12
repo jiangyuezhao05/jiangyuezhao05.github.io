@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 <p>
-  Hi, this is Jiangyue! I am a third-year undergraduate student at the School of Information Management and Engineering (SIME), 
+  Hi, this is Jiangyue! I am a third-year undergraduate student at 
+  <a href="https://sime.sufe.edu.cn/" target="_blank" rel="noopener">the School of Information Management and Engineering (SIME)</a>, 
   <a href="https://www.sufe.edu.cn/" target="_blank" rel="noopener">Shanghai University of Finance and Economics (SUFE)</a>.
 </p>
 
