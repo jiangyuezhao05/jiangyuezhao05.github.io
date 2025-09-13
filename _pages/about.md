@@ -19,7 +19,7 @@ redirect_from:
 </p>
 
 <p>
-  My research interests lie at the intersection of Information Systems (IS) and Economics. More specifically, I employ statistical and econometric methods to empirically examine human–technology interactions through the lens of behavioral economics.
+  My research interests lie at the intersection of <strong>Information Systems (IS)</strong> and <strong>Economics</strong>.<br>More specifically, I employ statistical and econometric methods to empirically examine human–technology interactions through the lens of behavioral economics.
 </p>
 
 
@@ -52,7 +52,7 @@ Current Research
 
 <h1>People</h1>
 <p>
-  I’m very thankful to Zhenxin, who introduced me to the emerging field of behavioral economics with his deep understanding of society and remarkable economic insights. 
+  I’m very thankful to Zhenxin, who introduced me to the emerging field of behavioral economics with his deep understanding of society and remarkable economic insights. <br>
   His innovative way of teaching left a strong impression on me and truly changed how I view society and the world to some extent.
 </p>
 
