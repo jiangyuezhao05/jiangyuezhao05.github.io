@@ -51,13 +51,13 @@ Current Research
 </p>
 
 People
-===========
+================
 I’m very thankful to Zhenxin, who introduced me to the emerging field of behavioral economics with his deep understanding of society and remarkable economic insights.
 His innovative way of teaching left a strong impression on me and truly changed how I view society and the world to some extent.
 
 I'm very thankful to Yulin, who opened the door to IS research for me and introduced me to the frontier of IS studies.
 <figure style="display: inline-block; margin: 20px auto; text-align: center;">
-  <img src="/images/yulin.jpg" style="max-width: 75%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
+  <img src="/images/yulin.jpg" style="max-width: 70%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
   <figcaption style="margin-top: 10px; font-size: 16px; color: #666;">
     A picture of Prof. Yulin Fang with me. August, 2025, Shanghai.
   </figcaption>
@@ -65,7 +65,7 @@ I'm very thankful to Yulin, who opened the door to IS research for me and introd
 
 I feel very fortunate to have had the opportunity to host and engage in in-depth conversations with Chris. He has provided me with invaluable advice on my academic career, life choices, and even philosophical topics.
 <figure style="display: inline-block; margin: 20px auto; text-align: center;">
-  <img src="/images/chris.jpg" style="max-width: 75%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
+  <img src="/images/chris.jpg" style="max-width: 70%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
   <figcaption style="margin-top: 10px; font-size: 16px; color: #666;">
     A picture of Prof. Chris T. Ryan with me. August, 2025, Shanghai.
   </figcaption>
@@ -73,7 +73,7 @@ I feel very fortunate to have had the opportunity to host and engage in in-depth
 
 
 Other words
-===========
+================
 
 I enjoy reading and writing very much, usually in Chinese.
 
