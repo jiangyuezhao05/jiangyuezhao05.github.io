@@ -50,8 +50,7 @@ Current Research
   I am deeply grateful for their support.
 </p>
 
-<h2>People</h2>
-
+<h1>People</h1>
 <p>
   I’m very thankful to Zhenxin, who introduced me to the emerging field of behavioral economics with his deep understanding of society and remarkable economic insights. 
   His innovative way of teaching left a strong impression on me and truly changed how I view society and the world to some extent.
@@ -80,8 +79,7 @@ Current Research
   </figcaption>
 </figure>
 
-<h2>Other words</h2>
-
+<h1>Other words</h1>
 <p>
   I enjoy reading and writing very much, usually in Chinese.
 </p>
