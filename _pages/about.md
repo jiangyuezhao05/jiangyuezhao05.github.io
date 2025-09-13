@@ -57,7 +57,7 @@ Current Research
 </p>
 
 <p>
-  I’m very thankful to Yulin, who opened the door to IS research for me and introduced me to the frontier of IS studies.
+  I owe my first steps in IS research to Yulin, who opened the door for me and introduced me to the frontier of IS studies.
 </p>
 
 <figure style="display: inline-block; margin: 20px auto; text-align: center;">
