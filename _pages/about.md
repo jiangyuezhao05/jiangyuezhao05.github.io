@@ -50,12 +50,16 @@ Current Research
   I am deeply grateful for their support.
 </p>
 
-## People
+<h2>People</h2>
 
-I’m very thankful to Zhenxin, who introduced me to the emerging field of behavioral economics with his deep understanding of society and remarkable economic insights.  
-His innovative way of teaching left a strong impression on me and truly changed how I view society and the world to some extent.
+<p>
+  I’m very thankful to Zhenxin, who introduced me to the emerging field of behavioral economics with his deep understanding of society and remarkable economic insights. 
+  His innovative way of teaching left a strong impression on me and truly changed how I view society and the world to some extent.
+</p>
 
-I’m very thankful to Yulin, who opened the door to IS research for me and introduced me to the frontier of IS studies.  
+<p>
+  I’m very thankful to Yulin, who opened the door to IS research for me and introduced me to the frontier of IS studies.
+</p>
 
 <figure style="display: inline-block; margin: 20px auto; text-align: center;">
   <img src="/images/yulin.jpg" style="max-width: 70%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
@@ -64,7 +68,10 @@ I’m very thankful to Yulin, who opened the door to IS research for me and intr
   </figcaption>
 </figure>
 
-I feel very fortunate to have had the opportunity to host and engage in in-depth conversations with Chris. He has provided me with invaluable advice on my academic career, life choices, and even philosophical topics.  
+<p>
+  I feel very fortunate to have had the opportunity to host and engage in in-depth conversations with Chris. 
+  He has provided me with invaluable advice on my academic career, life choices, and even philosophical topics.
+</p>
 
 <figure style="display: inline-block; margin: 20px auto; text-align: center;">
   <img src="/images/chris.jpg" style="max-width: 70%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
@@ -73,9 +80,12 @@ I feel very fortunate to have had the opportunity to host and engage in in-depth
   </figcaption>
 </figure>
 
-## Other words
+<h2>Other words</h2>
 
-I enjoy reading and writing very much, usually in Chinese.  
+<p>
+  I enjoy reading and writing very much, usually in Chinese.
+</p>
 
-I hope this website will be a good start for me to share my opinions and thoughts on daily life, study and research—whatever, in English. :)
-
+<p>
+  I hope this website will be a good start for me to share my opinions and thoughts on daily life, study and research—whatever, in English. :)
+</p>
