@@ -33,26 +33,26 @@ I believe I will keep exploring new places in the future — measuring the world
   <h2>🌍 Travel Gallery</h2>
   <p>Here are some of the cities and places I’ve been to — each holds a story, a feeling, and a moment of beauty.</p>
   
-  <div class="photo-wall">
-    <img src="/_misc/travel/bangkok.jpg" alt="Bangkok National Art Museum">
-    <img src="/_misc/travel/chiangmai.jpg" alt="Chiangmai">
-      <img src="/_misc/travel/cat.jpg" alt="Cat Moment">
-    <img src="/_misc/travel/ningbo.jpg" alt="Ningbo, Zhejiang">
-    <img src="/_misc/travel/tianyige.jpg" alt="Tianyi Ge, Ningbo">
-    <img src="/_misc/travel/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo">
-    <img src="/_misc/travel/dalian.jpg" alt="Dalian, Liangning">
-    <img src="/_misc/travel/suzhou.jpg" alt="Suzhou, Jiangsu">
-    <img src="/_misc/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang">
-    <img src="/_misc/travel/nightmarket.jpg" alt="Night Market in Chiangmai">
-    <img src="/_misc/travel/pattaya.jpg" alt="Pattaya">
-    <img src="/_misc/travel/shichahai.jpg" alt="Sunset over Shichahai, Beijing">
-    <img src="/_misc/travel/tiananmen.jpg" alt="Tiananmen Square, Beijing">
-    <img src="/_misc/travel/yantai.jpg" alt="Yantai, Shandong">
-    <img src="/_misc/travel/chongming.jpg" alt="Chongming, Shanghai">
-    <img src="/_misc/travel/national_gallery.jpg" alt="National Gallery">
-    <img src="/_misc/travel/pku.jpg" alt="Peking University, Beijing">
-    <img src="/_misc/travel/gugong.jpg" alt="Forbidden City, Beijing">
-    <img src="/_misc/travel/quanzhou.jpg" alt="Quanzhou, Fujian">
+<div class="photo-wall">
+    <img src="{{ site.baseurl }}/misc/travel/bangkok.jpg" alt="Bangkok National Art Museum">
+    <img src="{{ site.baseurl }}/misc/travel/chiangmai.jpg" alt="Chiangmai">
+    <img src="{{ site.baseurl }}/misc/travel/cat.jpg" alt="Cat Moment">
+    <img src="{{ site.baseurl }}/misc/travel/ningbo.jpg" alt="Ningbo, Zhejiang">
+    <img src="{{ site.baseurl }}/misc/travel/tianyige.jpg" alt="Tianyi Ge, Ningbo">
+    <img src="{{ site.baseurl }}/misc/travel/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo">
+    <img src="{{ site.baseurl }}/misc/travel/dalian.jpg" alt="Dalian, Liaoning">
+    <img src="{{ site.baseurl }}/misc/travel/suzhou.jpg" alt="Suzhou, Jiangsu">
+    <img src="{{ site.baseurl }}/misc/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang">
+    <img src="{{ site.baseurl }}/misc/travel/nightmarket.jpg" alt="Night Market in Chiangmai">
+    <img src="{{ site.baseurl }}/misc/travel/pattaya.jpg" alt="Pattaya">
+    <img src="{{ site.baseurl }}/misc/travel/shichahai.jpg" alt="Sunset over Shichahai, Beijing">
+    <img src="{{ site.baseurl }}/misc/travel/tiananmen.jpg" alt="Tiananmen Square, Beijing">
+    <img src="{{ site.baseurl }}/misc/travel/yantai.jpg" alt="Yantai, Shandong">
+    <img src="{{ site.baseurl }}/misc/travel/chongming.jpg" alt="Chongming, Shanghai">
+    <img src="{{ site.baseurl }}/misc/travel/national_gallery.jpg" alt="National Gallery">
+    <img src="{{ site.baseurl }}/misc/travel/pku.jpg" alt="Peking University, Beijing">
+    <img src="{{ site.baseurl }}/misc/travel/gugong.jpg" alt="Forbidden City, Beijing">
+    <img src="{{ site.baseurl }}/misc/travel/quanzhou.jpg" alt="Quanzhou, Fujian">
   </div>
 </section>
 
