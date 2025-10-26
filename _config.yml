@@ -289,7 +289,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # misc
+  # _misc
   - scope:
       path: "misc"
       type: pages
