@@ -20,12 +20,18 @@ main:
  # - title: "Portfolio"
   #  url: /portfolio/
 
+  - title: "Research"
+    url: /research/
+
   - title: "Awards"
     url: /awards/
 
   - title: "Blog Posts"
     url: /year-archive/
     
+  - title: "Misc."
+    url: /misc/
+
  # - title: "CV"
   #  url: /cv/
     

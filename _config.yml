@@ -31,16 +31,6 @@ author:
   employer         : "Shanghai University of<br>    Finance and Economics"
   uri              : # URL
   email            : "jiangyuezhao05@gmail.com" 
-  linkedin         : jiangyue-zhao
-  twitter          : JiangyueZhao05
-
-  links: 
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/jiangyue-zhao/"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://x.com/JiangyueZhao05"
 
   # Academic websites
   academia         : # URL
