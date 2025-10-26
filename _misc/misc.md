@@ -28,3 +28,57 @@ In my first year of university, I was honored to be selected as one of the “Re
 I have traveled to more than 40 cities over the past few years, gaining unique and precious memories in every one of them.  
 To me, travel is not only a way to relax, but also a way to observe, reflect, and connect with the world.  
 I believe I will keep exploring new places in the future — measuring the world with my own footsteps.
+
+<section id="travel">
+  <h2>🌍 Travel Gallery</h2>
+  <p>Here are some of the cities and places I’ve been to — each holds a story, a feeling, and a moment of beauty.</p>
+  
+  <div class="photo-wall">
+    <img src="/assets/travel/bangkok.jpg" alt="Bangkok National Art Museum">
+    <img src="/assets/travel/chiangmai.jpg" alt="Chiangmai">
+       <img src="/assets/travel/cat.jpg" alt="Cat Moment">
+    <img src="/assets/travel/ningbo.jpg" alt="Ningbo, Zhejiang">
+    <img src="/assets/travel/tianyige.jpg" alt="Tianyi Ge, Ningbo">
+    <img src="/assets/travel/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo">
+    <img src="/assets/travel/dalian.jpg" alt="Dalian, Liangning">
+    <img src="/assets/travel/suzhou.jpg" alt="Suzhou, Jiangsu">
+    <img src="/assets/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang">
+    <img src="/assets/travel/nightmarket.jpg" alt="Night Market in Chiangmai">
+    <img src="/assets/travel/pattaya.jpg" alt="Pattaya">
+    <img src="/assets/travel/shichahai.jpg" alt="Sunset over Shichahai, Beijing">
+    <img src="/assets/travel/tiananmen.jpg" alt="Tiananmen Square, Beijing">
+    <img src="/assets/travel/yantai.jpg" alt="Yantai, Shandong">
+    <img src="/assets/travel/chongming.jpg" alt="Chongming, Shanghai">
+    <img src="/assets/travel/national_gallery.jpg" alt="National Gallery">
+    <img src="/assets/travel/pku.jpg" alt="Peking University, Beijing">
+    <img src="/assets/travel/gugong.jpg" alt="Forbidden City, Beijing">
+    <img src="/assets/travel/quanzhou.jpg" alt="Quanzhou, Fujian">
+  </div>
+</section>
+
+<style>
+#travel {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+.photo-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+.photo-wall img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.photo-wall img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+</style>
+
