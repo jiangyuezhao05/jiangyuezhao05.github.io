@@ -21,7 +21,7 @@ I have read this book more than ten times since high school. Its poetic language
 ### ✍️ Writing  
 Writing allows me to record and express my thoughts and feelings about different experiences and events.  
 I run a personal WeChat Official Account, where I share reflections and stories from my life.  
-In my first year of university, I was honored to be selected as one of the “Reading Stars” (5 out of thousands).
+In my first year of university, I was honored to be selected as one of the *Reading Stars*  (5 out of thousands).
 
 ### 🌍 Traveling  
 I have traveled to more than 40 cities over the past few years, gaining unique and precious memories in every one of them.  
@@ -41,12 +41,12 @@ To me, travel is not only a way to relax, but also a way to observe, reflect, an
     <img src="{{ site.baseurl }}/misc/travel/ningbo.jpg" alt="Ningbo, Zhejiang" title="Ningbo, Zhejiang, 2023">
     <img src="{{ site.baseurl }}/misc/travel/tianyige.jpg" alt="Tianyi Ge, Ningbo" title="Tianyi Ge, Ningbo, 2023">
     <img src="{{ site.baseurl }}/misc/travel/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo" title="Nantang Old Street, Ningbo, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/yangzhou.jpg" alt="Yangzhou, Jiangsu" title="Yangzhou, Jiangsu, 2023">
     <img src="{{ site.baseurl }}/misc/travel/whu.jpg" alt="Wuhan University, Wuhan" title="Wuhan University, Wuhan, 2024">
     <img src="{{ site.baseurl }}/misc/travel/east_lake.jpg" alt="East Lake, Wuhan" title="East Lake, Wuhan, 2024">
     <img src="{{ site.baseurl }}/misc/travel/dalian.jpg" alt="Dalian, Liaoning" title="Dalian, Liaoning, 2024">
     <img src="{{ site.baseurl }}/misc/travel/yantai.jpg" alt="Yantai, Shandong" title="Yantai, Shandong, 2024">
     <img src="{{ site.baseurl }}/misc/travel/yantai1.jpg" alt="Yantai, Shandong" title="Yantai, Shandong, 2024">
-    <img src="{{ site.baseurl }}/misc/travel/yangzhou.jpg" alt="Yangzhou, Jiangsu" title="Yangzhou, Jiangsu, 2024">
     <img src="{{ site.baseurl }}/misc/travel/chongming.jpg" alt="Chongming, Shanghai" title="Chongming, Shanghai, 2024">
     <img src="{{ site.baseurl }}/misc/travel/suzhou.jpg" alt="Suzhou, Jiangsu" title="Suzhou, Jiangsu, 2024">
     <img src="{{ site.baseurl }}/misc/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang" title="Jiangshan, Zhejiang, 2024">
