@@ -32,25 +32,25 @@ To me, travel is not only a way to relax, but also a way to observe, reflect, an
   <p>Here are some of the cities and places I’ve been to — each holds a story, a feeling, and a moment of beauty.</p>
 
 <div class="photo-wall">
-    <img src="{{ site.baseurl }}/assets/misc/bangkok.jpg" alt="Bangkok National Art Museum" title="Bangkok National Art Museum, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/chiangmai.jpg" alt="Chiangmai" title="Chiangmai, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/nightmarket.jpg" alt="Night Market in Chiangmai" title="Night Market in Chiangmai, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/pattaya.jpg" alt="Pattaya" title="Pattaya, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/cat.jpg" alt="Cat Moment" title="Cat Moment, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/ningbo.jpg" alt="Ningbo, Zhejiang" title=Ningbo, Zhejiang, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/tianyige.jpg" alt="Tianyi Ge, Ningbo" title="Tianyi Ge, Ningbo, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo" title="Nantang Old Street, Ningbo, 2023">
-    <img src="{{ site.baseurl }}/assets/misc/dalian.jpg" alt="Dalian, Liaoning" title="Dalian, Liaoning, 2024">
-    <img src="{{ site.baseurl }}/assets/misc/yantai.jpg" alt="Yantai, Shandong" title="Yantai, Shandong, 2024">
-    <img src="{{ site.baseurl }}/assets/misc/chongming.jpg" alt="Chongming, Shanghai" title="Chongming, Shanghai, 2024">
-    <img src="{{ site.baseurl }}/assets/misc/suzhou.jpg" alt="Suzhou, Jiangsu" title="Suzhou, Jiangsu, 2024">
-    <img src="{{ site.baseurl }}/assets/misc/jiangshan.jpg" alt="Jiangshan, Zhejiang" title="Jiangshan, Zhejiang, 2024">
-    <img src="{{ site.baseurl }}/assets/misc/shichahai.jpg" alt="Sunset over Shichahai, Beijing" title="Sunset over Shichahai, Beijing, 2025">
-    <img src="{{ site.baseurl }}/assets/misc/tiananmen.jpg" alt="Tiananmen Square, Beijing" title="Tiananmen Square, Beijing, 2025">
-    <img src="{{ site.baseurl }}/assets/misc/national_gallery.jpg" alt="National Gallery" title="National Gallery, 2025">
-    <img src="{{ site.baseurl }}/assets/misc/pku.jpg" alt="Peking University, Beijing" title=Peking University, Beijing, 2025">
-    <img src="{{ site.baseurl }}/assets/misc/gugong.jpg" alt="Forbidden City, Beijing" title="Forbidden City, Beijing, 2025">
-    <img src="{{ site.baseurl }}/assets/misc/quanzhou.jpg" alt="Quanzhou, Fujian" title="Quanzhou, Fujian, 2025">
+    <img src="{{ site.baseurl }}/misc/travel/bangkok.jpg" alt="Bangkok National Art Museum" title="Bangkok National Art Museum, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/chiangmai.jpg" alt="Chiangmai" title="Chiangmai, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/nightmarket.jpg" alt="Night Market in Chiangmai" title="Night Market in Chiangmai, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/pattaya.jpg" alt="Pattaya" title="Pattaya, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/cat.jpg" alt="Cat Moment" title="Cat Moment, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/ningbo.jpg" alt="Ningbo, Zhejiang" title="Ningbo, Zhejiang, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/tianyige.jpg" alt="Tianyi Ge, Ningbo" title="Tianyi Ge, Ningbo, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo" title="Nantang Old Street, Ningbo, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/dalian.jpg" alt="Dalian, Liaoning" title="Dalian, Liaoning, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/yantai.jpg" alt="Yantai, Shandong" title="Yantai, Shandong, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/chongming.jpg" alt="Chongming, Shanghai" title="Chongming, Shanghai, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/suzhou.jpg" alt="Suzhou, Jiangsu" title="Suzhou, Jiangsu, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang" title="Jiangshan, Zhejiang, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/shichahai.jpg" alt="Sunset over Shichahai, Beijing" title="Sunset over Shichahai, Beijing, 2025">
+    <img src="{{ site.baseurl }}/misc/travel/tiananmen.jpg" alt="Tiananmen Square, Beijing" title="Tiananmen Square, Beijing, 2025">
+    <img src="{{ site.baseurl }}/misc/travel/national_gallery.jpg" alt="National Gallery" title="National Gallery, 2025">
+    <img src="{{ site.baseurl }}/misc/travel/pku.jpg" alt="Peking University, Beijing" title="Peking University, Beijing, 2025">
+    <img src="{{ site.baseurl }}/misc/travel/gugong.jpg" alt="Forbidden City, Beijing" title="Forbidden City, Beijing, 2025">
+    <img src="{{ site.baseurl }}/misc/travel/quanzhou.jpg" alt="Quanzhou, Fujian" title="Quanzhou, Fujian, 2025">
   </div>
 </section>
 
