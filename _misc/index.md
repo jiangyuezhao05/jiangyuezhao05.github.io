@@ -36,12 +36,17 @@ To me, travel is not only a way to relax, but also a way to observe, reflect, an
     <img src="{{ site.baseurl }}/misc/travel/chiangmai.jpg" alt="Chiangmai" title="Chiangmai, 2023">
     <img src="{{ site.baseurl }}/misc/travel/nightmarket.jpg" alt="Night Market in Chiangmai" title="Night Market in Chiangmai, 2023">
     <img src="{{ site.baseurl }}/misc/travel/pattaya.jpg" alt="Pattaya" title="Pattaya, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/Chao Phraya River.jpg" alt="Chao Phraya River" title="Chao Phraya River, 2023">
     <img src="{{ site.baseurl }}/misc/travel/cat.jpg" alt="Cat Moment" title="Cat Moment, 2023">
     <img src="{{ site.baseurl }}/misc/travel/ningbo.jpg" alt="Ningbo, Zhejiang" title="Ningbo, Zhejiang, 2023">
     <img src="{{ site.baseurl }}/misc/travel/tianyige.jpg" alt="Tianyi Ge, Ningbo" title="Tianyi Ge, Ningbo, 2023">
     <img src="{{ site.baseurl }}/misc/travel/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo" title="Nantang Old Street, Ningbo, 2023">
+    <img src="{{ site.baseurl }}/misc/travel/whu.jpg" alt="Wuhan University, Wuhan" title="Wuhan University, Wuhan, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/east_lake.jpg" alt="East Lake, Wuhan" title="East Lake, Wuhan, 2024">
     <img src="{{ site.baseurl }}/misc/travel/dalian.jpg" alt="Dalian, Liaoning" title="Dalian, Liaoning, 2024">
     <img src="{{ site.baseurl }}/misc/travel/yantai.jpg" alt="Yantai, Shandong" title="Yantai, Shandong, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/yantai1.jpg" alt="Yantai, Shandong" title="Yantai, Shandong, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/yangzhou.jpg" alt="Yangzhou, Jiangsu" title="Yangzhou, Jiangsu, 2024">
     <img src="{{ site.baseurl }}/misc/travel/chongming.jpg" alt="Chongming, Shanghai" title="Chongming, Shanghai, 2024">
     <img src="{{ site.baseurl }}/misc/travel/suzhou.jpg" alt="Suzhou, Jiangsu" title="Suzhou, Jiangsu, 2024">
     <img src="{{ site.baseurl }}/misc/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang" title="Jiangshan, Zhejiang, 2024">
