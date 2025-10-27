@@ -23,17 +23,14 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Awards"
-    url: /awards/
+  - title: "CV"
+    url: /cv/
 
   - title: "Blog Posts"
     url: /year-archive/
     
   - title: "Misc."
     url: /misc/
-
- # - title: "CV"
-  #  url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/

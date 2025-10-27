@@ -50,11 +50,11 @@ To me, travel is not only a way to relax, but also a way to observe, reflect, an
     <img src="{{ site.baseurl }}/misc/travel/chongming.jpg" alt="Chongming, Shanghai" title="Chongming, Shanghai, 2024">
     <img src="{{ site.baseurl }}/misc/travel/suzhou.jpg" alt="Suzhou, Jiangsu" title="Suzhou, Jiangsu, 2024">
     <img src="{{ site.baseurl }}/misc/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang" title="Jiangshan, Zhejiang, 2024">
+    <img src="{{ site.baseurl }}/misc/travel/gugong.jpg" alt="Forbidden City, Beijing" title="Forbidden City, Beijing, 2025">
     <img src="{{ site.baseurl }}/misc/travel/shichahai.jpg" alt="Sunset over Shichahai, Beijing" title="Sunset over Shichahai, Beijing, 2025">
     <img src="{{ site.baseurl }}/misc/travel/tiananmen.jpg" alt="Tiananmen Square, Beijing" title="Tiananmen Square, Beijing, 2025">
-    <img src="{{ site.baseurl }}/misc/travel/national_gallery.jpg" alt="National Gallery" title="National Gallery, 2025">
+    <img src="{{ site.baseurl }}/misc/travel/national_gallery.jpg" alt="National Museum" title="National Museum of China, 2025">
     <img src="{{ site.baseurl }}/misc/travel/pku.jpg" alt="Peking University, Beijing" title="Peking University, Beijing, 2025">
-    <img src="{{ site.baseurl }}/misc/travel/gugong.jpg" alt="Forbidden City, Beijing" title="Forbidden City, Beijing, 2025">
     <img src="{{ site.baseurl }}/misc/travel/quanzhou.jpg" alt="Quanzhou, Fujian" title="Quanzhou, Fujian, 2025">
   </div>
 </section>
