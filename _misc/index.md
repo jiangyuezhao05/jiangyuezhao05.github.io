@@ -31,100 +31,45 @@ To me, travel is not only a way to relax, but also a way to observe, reflect, an
   <h2>🌍 Travel Gallery</h2>
   <p>Here are some of the cities and places I’ve been to — each holds a story, a feeling, and a moment of beauty.</p>
 
-
 <div class="photo-wall">
-  <div class="photo-item">
-    <img src="/_misc/travel/bangkok.jpg" alt="Bangkok National Art Museum">
-    <div class="photo-caption">Bangkok National Art Museum</div>
+    <img src="{{ site.baseurl }}/assets/misc/bangkok.jpg" alt="Bangkok National Art Museum" title="Bangkok National Art Museum, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/chiangmai.jpg" alt="Chiangmai" title="Chiangmai, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/nightmarket.jpg" alt="Night Market in Chiangmai" title="Night Market in Chiangmai, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/pattaya.jpg" alt="Pattaya" title="Pattaya, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/cat.jpg" alt="Cat Moment" title="Cat Moment, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/ningbo.jpg" alt="Ningbo, Zhejiang" title=Ningbo, Zhejiang, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/tianyige.jpg" alt="Tianyi Ge, Ningbo" title="Tianyi Ge, Ningbo, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo" title="Nantang Old Street, Ningbo, 2023">
+    <img src="{{ site.baseurl }}/assets/misc/dalian.jpg" alt="Dalian, Liaoning" title="Dalian, Liaoning, 2024">
+    <img src="{{ site.baseurl }}/assets/misc/yantai.jpg" alt="Yantai, Shandong" title="Yantai, Shandong, 2024">
+    <img src="{{ site.baseurl }}/assets/misc/chongming.jpg" alt="Chongming, Shanghai" title="Chongming, Shanghai, 2024">
+    <img src="{{ site.baseurl }}/assets/misc/suzhou.jpg" alt="Suzhou, Jiangsu" title="Suzhou, Jiangsu, 2024">
+    <img src="{{ site.baseurl }}/assets/misc/jiangshan.jpg" alt="Jiangshan, Zhejiang" title="Jiangshan, Zhejiang, 2024">
+    <img src="{{ site.baseurl }}/assets/misc/shichahai.jpg" alt="Sunset over Shichahai, Beijing" title="Sunset over Shichahai, Beijing, 2025">
+    <img src="{{ site.baseurl }}/assets/misc/tiananmen.jpg" alt="Tiananmen Square, Beijing" title="Tiananmen Square, Beijing, 2025">
+    <img src="{{ site.baseurl }}/assets/misc/national_gallery.jpg" alt="National Gallery" title="National Gallery, 2025">
+    <img src="{{ site.baseurl }}/assets/misc/pku.jpg" alt="Peking University, Beijing" title=Peking University, Beijing, 2025">
+    <img src="{{ site.baseurl }}/assets/misc/gugong.jpg" alt="Forbidden City, Beijing" title="Forbidden City, Beijing, 2025">
+    <img src="{{ site.baseurl }}/assets/misc/quanzhou.jpg" alt="Quanzhou, Fujian" title="Quanzhou, Fujian, 2025">
   </div>
+</section>
 
-  <div class="photo-item">
-    <img src="/_misc/travel/chiangmai.jpg" alt="Chiangmai">
-    <div class="photo-caption">Chiangmai</div>
-  </div>
+<style>
+.photo-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 图片更宽 */
+  gap: 5px; /* 图片之间更紧密 */
+}
 
-  <div class="photo-item">
-    <img src="/_misc/travel/cat.jpg" alt="Cat Moment">
-    <div class="photo-caption">Cat Moment</div>
-  </div>
+.photo-wall img {
+  width: 100%;
+  height: 260px; /* 图片更高 */
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform .3s;
+}
 
-  <div class="photo-item">
-    <img src="/_misc/travel/ningbo.jpg" alt="Ningbo, Zhejiang">
-    <div class="photo-caption">Ningbo, Zhejiang</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/tianyige.jpg" alt="Tianyi Ge, Ningbo">
-    <div class="photo-caption">Tianyi Ge, Ningbo</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/nantang_laojie.jpg" alt="Nantang Old Street, Ningbo">
-    <div class="photo-caption">Nantang Old Street, Ningbo</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/dalian.jpg" alt="Dalian, Liaoning">
-    <div class="photo-caption">Dalian, Liaoning</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/suzhou.jpg" alt="Suzhou, Jiangsu">
-    <div class="photo-caption">Suzhou, Jiangsu</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/jiangshan.jpg" alt="Jiangshan, Zhejiang">
-    <div class="photo-caption">Jiangshan, Zhejiang</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/nightmarket.jpg" alt="Night Market in Chiangmai">
-    <div class="photo-caption">Night Market in Chiangmai</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/pattaya.jpg" alt="Pattaya">
-    <div class="photo-caption">Pattaya</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/shichahai.jpg" alt="Sunset over Shichahai, Beijing">
-    <div class="photo-caption">Sunset over Shichahai, Beijing</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/tiananmen.jpg" alt="Tiananmen Square, Beijing">
-    <div class="photo-caption">Tiananmen Square, Beijing</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/yantai.jpg" alt="Yantai, Shandong">
-    <div class="photo-caption">Yantai, Shandong</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/chongming.jpg" alt="Chongming, Shanghai">
-    <div class="photo-caption">Chongming, Shanghai</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/national_gallery.jpg" alt="National Gallery">
-    <div class="photo-caption">National Gallery</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/pku.jpg" alt="Peking University, Beijing">
-    <div class="photo-caption">Peking University, Beijing</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/gugong.jpg" alt="Forbidden City, Beijing">
-    <div class="photo-caption">Forbidden City, Beijing</div>
-  </div>
-
-  <div class="photo-item">
-    <img src="/_misc/travel/quanzhou.jpg" alt="Quanzhou, Fujian">
-    <div class="photo-caption">Quanzhou, Fujian</div>
-  </div>
-</div>
+.photo-wall img:hover {
+  transform: scale(1.05);
+}
+</style>
