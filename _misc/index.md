@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Travel"
+title: "Misc."
 permalink: /misc/
 author_profile: true
 ---
