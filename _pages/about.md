@@ -23,8 +23,16 @@ redirect_from:
 </p>
 
 <p>
-  My research interests lie in <strong>Operations Management</strong>, with a focus on 
-  <strong>experimentation</strong> and <strong>causal inference</strong>.<br>
-  Email: jiangyuezhao05@stu.sufe.edu.cn / jiangyuezhao05@gmail.com<br>
+  I am broadly interested in <strong>Operations Management</strong>, 
+  particularly <strong>Experimentation</strong> and 
+  <strong>Causal Inference</strong>.<br>
+</p>
+
+
+<p>
+<strong>Email</strong>: jiangyuezhao05@stu.sufe.edu.cn / jiangyuezhao05@gmail.com<br>
+</p>
+
+<p>
   <strong>Feel free to contact me if you have any questions or would like to discuss research!</strong>
 </p>
