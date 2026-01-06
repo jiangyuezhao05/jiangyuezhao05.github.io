@@ -13,10 +13,7 @@ redirect_from:
 <p>
   Hi, this is Jiangyue! I am currently a third-year undergraduate student at 
   <a href="https://sime.sufe.edu.cn/" target="_blank" rel="noopener">the School of Information Management and Engineering (SIME)</a>, 
-  <a href="https://www.sufe.edu.cn/" target="_blank" rel="noopener">Shanghai University of Finance and Economics (SUFE)</a>.
-</p>
-
-<p>
+  <a href="https://www.sufe.edu.cn/" target="_blank" rel="noopener">Shanghai University of Finance and Economics (SUFE)</a>. 
   I am fortunate to be part of the Pilot Class of Interdisciplinary Science, co-organized by 
   <a href="https://riis.sufe.edu.cn/jxChinese/" target="_blank" rel="noopener">RIIS</a> and 
   <a href="https://itcs.sufe.edu.cn/" target="_blank" rel="noopener">ITCS</a>, where I receive interdisciplinary training in operations research, computer science, and economics.
