@@ -23,7 +23,7 @@ redirect_from:
 </p>
 
 <p>
-  I am broadly interested in <strong>Operations Management</strong>, 
+  My research interests lie broadly in <strong>Operations Management</strong>, 
   particularly <strong>Experimentation</strong> and 
   <strong>Causal Inference</strong>.<br>
 </p>
@@ -34,5 +34,5 @@ redirect_from:
 </p>
 
 <p>
-  <strong>Feel free to contact me if you have any questions or would like to discuss research!</strong>
+  <strong>Feel free to reach out if you have any questions or would like to discuss potential research projects!</strong>
 </p>
