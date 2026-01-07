@@ -21,8 +21,7 @@ redirect_from:
 
 <p>
   My research interests lie broadly in <strong>Operations Management</strong>, 
-  particularly <strong>Experimentation</strong> and 
-  <strong>Causal Inference</strong>.<br>
+  and I am currently exploring <strong>experimentation</strong> and <strong>causal inference</strong> as tools for decision making in complex operational settings.<br>
 </p>
 
 
