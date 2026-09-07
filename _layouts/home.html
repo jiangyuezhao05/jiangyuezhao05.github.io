@@ -36,6 +36,11 @@ layout: default
           {{ paragraph | markdownify }}
         {% endfor %}
       </div>
+      {% if home.contact.email %}
+        <p class="academic-hero__contact">
+          {{ home.contact.text }} <a href="mailto:{{ home.contact.email }}">{{ home.contact.email }}</a>.
+        </p>
+      {% endif %}
       {% if home.profile.availability %}
         <p class="academic-hero__availability" role="note">{{ home.profile.availability }}</p>
       {% endif %}

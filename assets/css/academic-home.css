@@ -87,6 +87,15 @@ body.academic-home-page .page__footer {
   margin: 0 0 1.05rem;
 }
 
+.academic-hero__contact {
+  margin: 0 0 0.7rem;
+  font-size: 0.93rem;
+}
+
+.academic-hero__contact a {
+  font-weight: 600;
+}
+
 .academic-hero__availability {
   display: inline-block;
   margin: 0.2rem 0 0;
@@ -179,7 +188,7 @@ body.academic-home-page .page__footer {
 }
 
 .academic-section {
-  padding: 3.5rem 0;
+  padding: 2.75rem 0;
   border-top: 1px solid var(--global-border-color);
   scroll-margin-top: 4.75rem;
 }
@@ -370,7 +379,7 @@ body.academic-home-page .page__footer {
   }
 
   .academic-section {
-    padding: 2.8rem 0;
+    padding: 2.25rem 0;
   }
 
   .academic-section__heading,
