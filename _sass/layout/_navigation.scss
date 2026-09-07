@@ -257,6 +257,17 @@
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
       }
+
+      &.is-active {
+        color: var(--global-link-color);
+
+        &:before {
+          background: var(--global-link-color);
+          -webkit-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+                  transform: scaleX(1);
+        }
+      }
     }
   }
 

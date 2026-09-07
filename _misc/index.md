@@ -2,7 +2,7 @@
 layout: single
 title: "Misc."
 permalink: /misc/
-author_profile: true
+author_profile: false
 ---
 
 Welcome to my **Miscellaneous Gallery!** 🌸  

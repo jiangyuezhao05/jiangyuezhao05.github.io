@@ -69,6 +69,6 @@
 @media (min-width: 761px) {
   .masthead__menu-item--lg {
     /* Align the navigation group more closely with the main content column. */
-    padding-right: clamp(4.25rem, calc(7vw + 1.5rem), 7rem);
+    padding-right: clamp(2.75rem, 7vw, 5.5rem);
   }
 }

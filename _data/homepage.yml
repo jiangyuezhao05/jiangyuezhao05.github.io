@@ -41,7 +41,7 @@ research_experience:
     dates: "Jan. 2026 – Present"
     location: "Shanghai, China"
     description: >-
-      Research on LLM agents and domain-specific language models for operations research, together with clinical language-model evaluation.
+      Developing efficient, workspace-based LLM agent systems for solving real-world operations research problems across full-lifecycle industrial optimization workflows.
     advisors:
       - name: "Prof. Dongdong Ge"
         url: "https://www.acem.sjtu.edu.cn/en/faculty/gedongdong.html"

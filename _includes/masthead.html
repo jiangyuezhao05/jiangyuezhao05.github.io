@@ -19,7 +19,7 @@
               {% if link.url contains '#' and page.layout != 'home' %}
                 <a href="{{ base_path }}/{{ link.url }}">{{ link.title }}</a>
               {% else %}
-                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+                <a href="{{ domain }}{{ link.url }}"{% if link.url == page.url %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a>
               {% endif %}
             </li>
           {% endfor %}
