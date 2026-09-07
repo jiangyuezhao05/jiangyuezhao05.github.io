@@ -21,7 +21,7 @@
   }
 
   function initializeSectionNavigation() {
-    var sectionIds = ["home", "research", "publications", "experience", "teaching"];
+    var sectionIds = ["home", "research", "publications", "teaching", "experience"];
     var sections = sectionIds
       .map(function (id) { return document.getElementById(id); })
       .filter(Boolean);

@@ -108,6 +108,24 @@ layout: default
     </ol>
   </section>
 
+  <section class="academic-section" id="teaching" aria-labelledby="teaching-title">
+    <div class="academic-section__heading academic-section__heading--compact">
+      <h2 id="teaching-title">Teaching</h2>
+    </div>
+
+    <div class="teaching-list">
+      {% for item in home.teaching %}
+        <article class="academic-entry teaching-entry">
+          <div class="academic-entry__meta"><span>{{ item.term }}</span></div>
+          <div class="academic-entry__content">
+            <h3>{{ item.course }}</h3>
+            <p>{{ item.role }} · {{ item.institution }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
   <section class="academic-section" id="experience" aria-labelledby="experience-title">
     <div class="academic-section__heading academic-section__heading--compact">
       <h2 id="experience-title">Professional Experience</h2>
@@ -125,24 +143,6 @@ layout: default
             <p class="experience-entry__role">{{ item.role }}</p>
             {% if item.description %}<p>{{ item.description }}</p>{% endif %}
             {% if item.advisors %}<p class="experience-entry__advisors">Advisors: {{ item.advisors }}</p>{% endif %}
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="academic-section" id="teaching" aria-labelledby="teaching-title">
-    <div class="academic-section__heading academic-section__heading--compact">
-      <h2 id="teaching-title">Teaching</h2>
-    </div>
-
-    <div class="teaching-list">
-      {% for item in home.teaching %}
-        <article class="academic-entry teaching-entry">
-          <div class="academic-entry__meta"><span>{{ item.term }}</span></div>
-          <div class="academic-entry__content">
-            <h3>{{ item.course }}</h3>
-            <p>{{ item.role }} · {{ item.institution }}</p>
           </div>
         </article>
       {% endfor %}
