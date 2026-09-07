@@ -7,6 +7,16 @@ html {
   min-height: 100%;
 }
 
+::selection {
+  color: #252936;
+  background: rgba(163, 172, 208, 0.45);
+}
+
+::-moz-selection {
+  color: #252936;
+  background: rgba(163, 172, 208, 0.45);
+}
+
 body {
   /* Set via _themes.scss */
   color: var(--global-text-color);
