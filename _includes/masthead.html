@@ -6,14 +6,22 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist">
+            <a href="{% if page.layout == 'home' %}#home{% else %}{{ base_path }}/{% endif %}">{{ site.title }}</a>
+          </li>
           {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
+            {% if link.url contains 'http' or link.url contains '#' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item">
+              {% if link.url contains '#' and page.layout != 'home' %}
+                <a href="{{ base_path }}/{{ link.url }}">{{ link.title }}</a>
+              {% else %}
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              {% endif %}
+            </li>
           {% endfor %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>

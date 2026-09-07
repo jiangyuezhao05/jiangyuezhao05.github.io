@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "ch-China"
+locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Jiangyue Zhao (赵江玥)"
+title                    : "Jiangyue Zhao"
 title_separator          : "-"
 name                     : &name "Jiangyue Zhao"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Jiangyue Zhao — AI-enabled decision-making, Information Systems, and Operations Management."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://jiangyuezhao05.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "jiangyuezhao05/jiangyuezhao05.github.io"
 author:
   # Biographic information
   avatar           : "Jasmine2.jpg"
-  name             : "Jiangyue Zhao (赵江玥)"
+  name             : "Jiangyue Zhao"
   pronouns         : # example: "she/her"  
-  bio              : "Nice to meet you!<br>Have a great day 😊"
+  bio              : "Senior undergraduate in Data Science<br>AI-enabled decision-making"
   location         : "Shanghai, China"
   employer         : "Shanghai University of<br>    Finance and Economics"
   uri              : # URL
-  email            : "jiangyuezhao05@gmail.com" 
+  email            : "jiangyuezhao05@stu.sufe.edu.cn"
 
   # Academic websites
   academia         : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  # github           : "academicpages"
+  github           : "jiangyuezhao05"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -122,7 +122,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # Blog is retained but hidden from the primary site navigation
   path                   : # blank (default) uses feed.xml
 
 

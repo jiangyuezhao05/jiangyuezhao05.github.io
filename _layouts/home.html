@@ -1,0 +1,154 @@
+---
+layout: default
+---
+
+{% assign home = site.data.homepage %}
+
+<main class="academic-home" aria-label="Jiangyue Zhao academic homepage">
+  <header class="academic-hero" id="home">
+    <aside class="academic-hero__aside" aria-label="Profile photo and contact links">
+      <figure class="academic-hero__portrait">
+        <img src="{{ home.profile.photo | relative_url }}" alt="{{ home.profile.photo_alt }}" fetchpriority="high">
+      </figure>
+
+      <div class="academic-hero__details">
+        <p class="academic-hero__location">
+          <i class="fas fa-location-dot" aria-hidden="true"></i>
+          {{ home.profile.location }}
+        </p>
+        <ul class="academic-profile-links academic-profile-links--stacked" aria-label="Profile links">
+          {% for link in home.profile.links %}
+            <li>
+              <a href="{{ link.url }}"{% if link.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+                <i class="{{ link.icon }}" aria-hidden="true"></i>
+                {{ link.label }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </aside>
+
+    <div class="academic-hero__content">
+      <h1 class="academic-hero__name">{{ home.profile.name }}</h1>
+      <div class="academic-hero__intro">
+        {% for paragraph in home.profile.introduction %}
+          {{ paragraph | markdownify }}
+        {% endfor %}
+      </div>
+      {% if home.profile.availability %}
+        <p class="academic-hero__availability" role="note">{{ home.profile.availability }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <section class="academic-section" id="research" aria-labelledby="research-title">
+    <div class="academic-section__heading academic-section__heading--compact">
+      <h2 id="research-title">Research Experience</h2>
+    </div>
+
+    <div class="experience-list">
+      {% for item in home.research_experience %}
+        <article class="academic-entry experience-entry">
+          <div class="academic-entry__meta">
+            <span>{{ item.dates }}</span>
+          </div>
+          <div class="academic-entry__content">
+            <div class="research-experience__identity">
+              <div class="research-experience__body">
+                <h3>
+                  <a href="{{ item.institution_url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a>
+                  <img class="research-experience__logo" src="{{ item.logo | relative_url }}" alt="" aria-hidden="true" loading="lazy">
+                </h3>
+                {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                {% if item.advisors %}
+                  <p class="experience-entry__advisors">
+                    {% if item.advisors.size == 1 %}Advisor:{% else %}Advisors:{% endif %}
+                    {% for advisor in item.advisors %}
+                      <a href="{{ advisor.url }}" target="_blank" rel="noopener noreferrer">{{ advisor.name }}</a>{% if advisor.affiliation %} ({{ advisor.affiliation }}){% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
+                    {% endfor %}
+                  </p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="academic-section" id="publications" aria-labelledby="publications-title">
+    <div class="academic-section__heading academic-section__heading--compact">
+      <h2 id="publications-title">Publications & Working Papers</h2>
+    </div>
+
+    <ol class="publication-list">
+      {% for publication in home.publications %}
+        <li>
+          <article class="academic-entry publication-entry">
+            <div class="academic-entry__meta">
+              <span>{{ publication.year }}</span>
+              <span>{{ publication.status }}</span>
+            </div>
+            <div class="academic-entry__content">
+              <h3>{{ publication.title }}</h3>
+              <p class="publication-entry__authors">{{ publication.authors | replace: "Jiangyue Zhao", "<strong>Jiangyue Zhao</strong>" }}</p>
+              <p>{{ publication.description }}</p>
+              {% if publication.links %}
+                <ul class="academic-entry__links" aria-label="Links for {{ publication.title }}">
+                  {% for link in publication.links %}
+                    <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} <span aria-hidden="true">↗</span></a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          </article>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="academic-section" id="experience" aria-labelledby="experience-title">
+    <div class="academic-section__heading academic-section__heading--compact">
+      <h2 id="experience-title">Professional Experience</h2>
+    </div>
+
+    <div class="experience-list">
+      {% for item in home.professional_experience %}
+        <article class="academic-entry experience-entry">
+          <div class="academic-entry__meta">
+            <span>{{ item.dates }}</span>
+            <span>{{ item.location }}</span>
+          </div>
+          <div class="academic-entry__content">
+            <h3><a href="{{ item.institution_url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a></h3>
+            <p class="experience-entry__role">{{ item.role }}</p>
+            {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+            {% if item.advisors %}<p class="experience-entry__advisors">Advisors: {{ item.advisors }}</p>{% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="academic-section" id="teaching" aria-labelledby="teaching-title">
+    <div class="academic-section__heading academic-section__heading--compact">
+      <h2 id="teaching-title">Teaching</h2>
+    </div>
+
+    <div class="teaching-list">
+      {% for item in home.teaching %}
+        <article class="academic-entry teaching-entry">
+          <div class="academic-entry__meta"><span>{{ item.term }}</span></div>
+          <div class="academic-entry__content">
+            <h3>{{ item.course }}</h3>
+            <p>{{ item.role }} · {{ item.institution }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+</main>
+
+<script src="{{ '/assets/js/homepage.js' | relative_url }}" defer></script>

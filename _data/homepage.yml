@@ -1,0 +1,124 @@
+profile:
+  name: "Jiangyue Zhao"
+  location: "Shanghai, China"
+  photo: "/images/Jasmine2.jpg"
+  photo_alt: "Portrait of Jiangyue Zhao"
+  introduction:
+    - >-
+      Hi! I’m Jiangyue, a senior undergraduate majoring in Data Science at [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/). I am part of the [Pilot Class of Interdisciplinary Science](https://riis.sufe.edu.cn/), where I receive interdisciplinary training in operations research, computer science, and economics.
+    - >-
+      My research focuses on **AI-enabled decision-making** at the intersection of **Information Systems** and **Operations Management**. I combine AI, optimization, and computational methods to study real-world operational problems and develop actionable insights. My current work centers on two areas: **LLMs for operations research** and **AI-enabled healthcare operations**.
+  availability: "I am actively seeking PhD opportunities for Fall 2027! ✨"
+  links:
+    - label: "Email"
+      url: "mailto:jiangyuezhao05@stu.sufe.edu.cn"
+      icon: "fas fa-envelope"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/jiangyue-zhao/"
+      icon: "fab fa-linkedin"
+      external: true
+
+research_experience:
+  - institution: "Harvard Business School"
+    institution_url: "https://www.hbs.edu/"
+    logo: "/assets/images/institutions/hbs.png"
+    role: "Research Assistant"
+    dates: "Jun. 2026 – Present"
+    location: "Remote"
+    description: >-
+      Research on interpretable AI for sequential healthcare decision-making and evidence-grounded clinical simulation.
+    advisors:
+      - name: "Prof. Michael Lingzhi Li"
+        url: "https://www.michaellz.com/"
+        affiliation: "HBS"
+      - name: "Prof. Pengyi Shi"
+        url: "https://web.ics.purdue.edu/~shi178/"
+        affiliation: "Purdue University"
+  - institution: "Shanghai Jiao Tong University"
+    institution_url: "https://www.sjtu.edu.cn/"
+    logo: "/assets/images/institutions/sjtu.png"
+    role: "Visiting Undergraduate Researcher"
+    dates: "Jan. 2026 – Present"
+    location: "Shanghai, China"
+    description: >-
+      Research on LLM agents and domain-specific language models for operations research, together with clinical language-model evaluation.
+    advisors:
+      - name: "Prof. Dongdong Ge"
+        url: "https://www.acem.sjtu.edu.cn/en/faculty/gedongdong.html"
+      - name: "Prof. Jianghao Lin"
+        url: "https://linjianghao.com/"
+  - institution: "The University of Hong Kong"
+    institution_url: "https://www.hku.hk/"
+    logo: "/assets/images/institutions/hku.png"
+    role: "Research Assistant"
+    dates: "Aug. 2025 – Apr. 2026"
+    location: "Remote"
+    advisors:
+      - name: "Prof. Yulin Fang"
+        url: "https://www.hkubs.hku.hk/people/yulin-fang/"
+
+publications:
+  - title: "OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents"
+    authors: "Chenyu Zhou*, Xinyun Lu*, Jiangyue Zhao*, Jianghao Lin, Dongdong Ge, and Yinyu Ye"
+    status: "Under Review"
+    year: "2026"
+    description: >-
+      Introduces a persistent, multi-artifact benchmark for evaluating whether optimization agents can build, revise, and explain solutions across a complete industrial workflow.
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2605.28158"
+  - title: "ICU-Evolve: Evidence-Grounded Evolution of Auditable Clinical Simulators"
+    authors: "Chenyu Zhou*, Jiangyue Zhao*, Michael Lingzhi Li, and Pengyi Shi"
+    status: "Under Review"
+    year: "2026"
+    description: >-
+      Develops an auditable clinical simulator for sequential sepsis treatment by refining interpretable patient dynamics against observational targets.
+
+professional_experience:
+  - institution: "Cardinal Operations"
+    institution_url: "https://www.shanshu.ai/"
+    role: "Research Intern · LLM & Optimization"
+    dates: "Jan. 2026 – May 2026"
+    location: "Shanghai, China"
+  - institution: "Boston Consulting Group"
+    institution_url: "https://www.bcg.com/"
+    role: "Part-time Assistant"
+    dates: "Jun. 2025 – Dec. 2025"
+    location: "Shanghai, China"
+
+teaching:
+  - course: "Stochastic Processes"
+    role: "Teaching Assistant"
+    institution: "Shanghai University of Finance and Economics"
+    term: "Fall 2026"
+  - course: "Operations Management"
+    role: "Teaching Assistant"
+    institution: "Shanghai University of Finance and Economics"
+    term: "Fall 2026"
+
+education:
+  institution: "Shanghai University of Finance and Economics"
+  institution_url: "https://www.sufe.edu.cn/"
+  degree: "B.E. in Data Science"
+  program: "Pilot Class of Interdisciplinary Science"
+  dates: "Sep. 2023 – Jun. 2027 (expected)"
+  location: "Shanghai, China"
+  details:
+    - "GPA: 3.80/4.00 (Top 5%); WES-evaluated GPA: 3.90/4.00"
+    - "Selected coursework: Operations Research, Stochastic Processes, Dynamic Programming, Operations Management, Econometrics, Causal Inference, Machine Learning, and Deep Learning"
+
+awards:
+  - title: "People’s Scholarship, First Prize"
+    detail: "Top 2% among undergraduate students at SUFE"
+    year: "2025"
+  - title: "Academic Innovation Scholarship"
+    detail: "Recognized for outstanding research and innovation performance"
+    year: "2025"
+  - title: "Mathematical Contest in Modeling, Finalist"
+    detail: "Top 2% among 27,456 teams worldwide"
+    year: "2025"
+
+contact:
+  text: >-
+    I am always happy to discuss research in Information Systems, Operations Management, AI, and optimization.
+  email: "jiangyuezhao05@stu.sufe.edu.cn"
