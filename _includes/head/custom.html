@@ -2,6 +2,16 @@
 
 <!-- start custom head snippets -->
 
+<!-- This site intentionally uses a single light theme. -->
+<script>
+  document.documentElement.removeAttribute("data-theme");
+  try {
+    localStorage.setItem("theme", "light");
+  } catch (error) {
+    // The light theme still applies when storage is unavailable.
+  }
+</script>
+
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 

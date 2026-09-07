@@ -161,6 +161,13 @@ html {
   font-weight: 550;
 }
 
+.masthead__inner-wrap {
+  width: min(100% - 3rem, 1020px);
+  max-width: 1020px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .academic-section {
   padding: 3.5rem 0;
   border-top: 1px solid var(--global-border-color);
@@ -308,6 +315,10 @@ html {
 }
 
 @media (max-width: 760px) {
+  .masthead__inner-wrap {
+    width: min(100% - 2.2rem, 650px);
+  }
+
   .academic-home {
     width: min(100% - 2.2rem, 650px);
     padding-top: 1.8rem;
