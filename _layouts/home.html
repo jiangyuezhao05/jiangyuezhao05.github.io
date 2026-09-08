@@ -8,7 +8,7 @@ layout: default
   <header class="academic-hero" id="home">
     <aside class="academic-hero__aside" aria-label="Profile photo and contact links">
       <figure class="academic-hero__portrait">
-        <img src="{{ home.profile.photo | relative_url }}" alt="{{ home.profile.photo_alt }}" fetchpriority="high">
+        <img src="{{ home.profile.photo | relative_url }}" alt="{{ home.profile.photo_alt }}" width="176" height="176" decoding="async" fetchpriority="high">
       </figure>
 
       <div class="academic-hero__details">
@@ -63,7 +63,7 @@ layout: default
               <div class="research-experience__body">
                 <h3>
                   <a href="{{ item.institution_url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a>
-                  <img class="research-experience__logo" src="{{ item.logo | relative_url }}" alt="" aria-hidden="true" loading="lazy">
+                  <img class="research-experience__logo" src="{{ item.logo | relative_url }}" alt="" width="28" height="28" aria-hidden="true" loading="lazy" decoding="async">
                 </h3>
                 {% if item.description %}<p>{{ item.description }}</p>{% endif %}
                 {% if item.advisors %}
@@ -149,7 +149,7 @@ layout: default
           <div class="academic-entry__content">
             <h3>
               <a href="{{ item.institution_url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a>
-              {% if item.logo %}<img class="professional-experience__logo" src="{{ item.logo | relative_url }}" alt="" aria-hidden="true" loading="lazy">{% endif %}
+              {% if item.logo %}<img class="professional-experience__logo" src="{{ item.logo | relative_url }}" alt="" width="36" height="28" aria-hidden="true" loading="lazy" decoding="async">{% endif %}
             </h3>
             <p class="experience-entry__role">{{ item.role }}</p>
             {% if item.description %}<p>{{ item.description }}</p>{% endif %}
