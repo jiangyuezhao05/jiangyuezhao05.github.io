@@ -25,6 +25,15 @@ body.academic-home-page .page__footer {
   text-decoration-thickness: 1px;
 }
 
+.academic-home a:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+.academic-home a:focus-visible {
+  outline: 2px solid rgba(163, 172, 208, 0.9);
+  outline-offset: 2px;
+}
+
 .academic-hero {
   display: grid;
   grid-template-columns: 176px minmax(0, 1fr);

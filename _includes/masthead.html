@@ -4,7 +4,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button class="hidden" type="button" aria-label="Toggle navigation"><div class="navicon"></div></button>
+        <button class="hidden" type="button" aria-label="Toggle navigation" aria-expanded="false"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist">
             <a href="{% if page.layout == 'home' %}#home{% else %}{{ base_path }}/{% endif %}">{{ site.title }}</a>

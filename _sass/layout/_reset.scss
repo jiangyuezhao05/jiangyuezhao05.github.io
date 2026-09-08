@@ -76,6 +76,11 @@ a:focus {
   @extend %tab-focus;
 }
 
+/* Pointer clicks do not need a persistent focus ring. Keep it for keyboard navigation. */
+a:focus:not(:focus-visible) {
+  outline: 0;
+}
+
 /* Remove outline from links */
 
 a:hover,
