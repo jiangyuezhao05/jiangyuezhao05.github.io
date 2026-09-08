@@ -94,6 +94,7 @@
   {% assign profile_page_id = canonical_url | append: "#profile-page" %}
   {% assign profile_person_id = canonical_url | append: "#person" %}
   {% assign profile_image = site.data.homepage.profile.photo | prepend: seo_url %}
+  {% assign profile_image_id = canonical_url | append: "#primary-image" %}
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -103,13 +104,30 @@
       "name": {{ site.title | jsonify }},
       "description": {{ seo_description | jsonify }},
       "dateModified": {{ site.time | date_to_xmlschema | jsonify }},
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": {{ profile_image_id | jsonify }},
+        "url": {{ profile_image | jsonify }},
+        "contentUrl": {{ profile_image | jsonify }},
+        "caption": {{ site.data.homepage.profile.photo_alt | jsonify }},
+        "width": 352,
+        "height": 352
+      },
       "mainEntity": {
         "@type": "Person",
         "@id": {{ profile_person_id | jsonify }},
         "name": {{ site.social.name | default: site.name | jsonify }},
         "url": {{ canonical_url | jsonify }},
         "description": {{ seo_description | jsonify }},
-        "image": {{ profile_image | jsonify }},
+        "image": {
+          "@type": "ImageObject",
+          "@id": {{ profile_image_id | jsonify }},
+          "url": {{ profile_image | jsonify }},
+          "contentUrl": {{ profile_image | jsonify }},
+          "caption": {{ site.data.homepage.profile.photo_alt | jsonify }},
+          "width": 352,
+          "height": 352
+        },
         "sameAs": {{ site.social.links | jsonify }},
         "affiliation": {
           "@type": "CollegeOrUniversity",
@@ -151,20 +169,15 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
-    }
-  </script>
-{% endif %}
-
 {% if page.header.image %}
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% elsif site.og_image %}
+  <meta property="og:image" content="{{ site.og_image | prepend: "/images/" | prepend: seo_url }}">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="352">
+  <meta property="og:image:height" content="352">
+  <meta property="og:image:alt" content="{{ site.data.homepage.profile.photo_alt }}">
 {% endif %}
 <!-- end Open Graph protocol -->
