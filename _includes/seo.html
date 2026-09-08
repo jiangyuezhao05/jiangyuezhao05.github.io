@@ -90,14 +90,33 @@
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
 
-{% if site.social %}
+{% if page.layout == "home" and site.social %}
+  {% assign profile_page_id = canonical_url | append: "#profile-page" %}
+  {% assign profile_person_id = canonical_url | append: "#person" %}
+  {% assign profile_image = site.data.homepage.profile.photo | prepend: seo_url %}
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "@id": {{ profile_page_id | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "dateModified": {{ site.time | date_to_xmlschema | jsonify }},
+      "mainEntity": {
+        "@type": "Person",
+        "@id": {{ profile_person_id | jsonify }},
+        "name": {{ site.social.name | default: site.name | jsonify }},
+        "url": {{ canonical_url | jsonify }},
+        "description": {{ seo_description | jsonify }},
+        "image": {{ profile_image | jsonify }},
+        "sameAs": {{ site.social.links | jsonify }},
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Shanghai University of Finance and Economics",
+          "url": "https://www.sufe.edu.cn/"
+        }
+      }
     }
   </script>
 {% endif %}
