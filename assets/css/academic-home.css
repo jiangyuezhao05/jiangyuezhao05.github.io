@@ -282,19 +282,12 @@ body.academic-home-page .page__footer {
   align-items: center;
 }
 
-.research-experience__logo {
-  display: inline-block;
-  flex: 0 0 auto;
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-}
-
+.research-experience__logo,
 .professional-experience__logo {
   display: inline-block;
   flex: 0 0 auto;
   width: 36px;
-  height: 28px;
+  height: 36px;
   object-fit: contain;
 }
 
@@ -421,14 +414,10 @@ body.academic-home-page .page__footer {
     gap: 0.2rem 0.65rem;
   }
 
-  .research-experience__logo {
-    width: 26px;
-    height: 26px;
-  }
-
+  .research-experience__logo,
   .professional-experience__logo {
     width: 34px;
-    height: 26px;
+    height: 34px;
   }
 
 }
