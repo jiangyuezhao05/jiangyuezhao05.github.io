@@ -77,11 +77,13 @@ publications:
 professional_experience:
   - institution: "Cardinal Operations"
     institution_url: "https://www.shanshu.ai/"
+    logo: "/assets/images/institutions/cardinal-operations.svg"
     role: "Research Intern · LLM & Optimization"
     dates: "Jan. 2026 – May 2026"
     location: "Shanghai, China"
   - institution: "Boston Consulting Group"
     institution_url: "https://www.bcg.com/"
+    logo: "/assets/images/institutions/bcg.png"
     role: "Part-time Assistant"
     dates: "Jun. 2025 – Dec. 2025"
     location: "Shanghai, China"

@@ -84,7 +84,10 @@ layout: default
 
   <section class="academic-section" id="publications" aria-labelledby="publications-title">
     <div class="academic-section__heading academic-section__heading--compact">
-      <h2 id="publications-title">Publications & Working Papers</h2>
+      <h2 id="publications-title" class="publications-heading">
+        <span>Publications & Working Papers</span>
+        <span class="publications-heading__note">(* denotes equal contribution)</span>
+      </h2>
     </div>
 
     <ol class="publication-list">
@@ -144,7 +147,10 @@ layout: default
             <span>{{ item.location }}</span>
           </div>
           <div class="academic-entry__content">
-            <h3><a href="{{ item.institution_url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a></h3>
+            <h3>
+              <a href="{{ item.institution_url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a>
+              {% if item.logo %}<img class="professional-experience__logo" src="{{ item.logo | relative_url }}" alt="" aria-hidden="true" loading="lazy">{% endif %}
+            </h3>
             <p class="experience-entry__role">{{ item.role }}</p>
             {% if item.description %}<p>{{ item.description }}</p>{% endif %}
             {% if item.advisors %}<p class="experience-entry__advisors">Advisors: {{ item.advisors }}</p>{% endif %}
