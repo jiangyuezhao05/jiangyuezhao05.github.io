@@ -33,8 +33,7 @@
     width: 100%;
   }
 
-  &:hover::after,
-  &:focus-within::after {
+  &.masthead--scrolled::after {
     opacity: 1;
   }
 
