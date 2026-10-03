@@ -4,7 +4,9 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: rgba(245, 245, 245, 0.88);
+  -webkit-backdrop-filter: blur(10px) saturate(1.08);
+          backdrop-filter: blur(10px) saturate(1.08);
   height: fit-content;
   top: 0;
   width: 100%;
@@ -14,6 +16,11 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+
+  .greedy-nav,
+  .masthead__menu-item {
+    background: transparent;
+  }
 
   &::after {
     content: "";
