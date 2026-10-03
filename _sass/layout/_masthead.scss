@@ -28,7 +28,14 @@
     bottom: 0;
     height: 1px;
     background: rgba(104, 117, 164, 0.18);
+    opacity: 0;
+    transition: opacity 0.18s ease;
     width: 100%;
+  }
+
+  &:hover::after,
+  &:focus-within::after {
+    opacity: 1;
   }
 
   &__inner-wrap {
