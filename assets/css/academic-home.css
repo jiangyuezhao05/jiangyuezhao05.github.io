@@ -17,7 +17,7 @@ body.academic-home-page .page__footer {
 .academic-home {
   width: min(100% - 3rem, 1020px);
   margin: 0 auto;
-  padding: 3rem 0 1.5rem;
+  padding: 1.75rem 0 1.5rem;
   font-size: 0.98rem;
   line-height: 1.7;
 }
@@ -41,7 +41,7 @@ body.academic-home-page .page__footer {
   grid-template-columns: var(--academic-profile-width) minmax(0, 1fr);
   gap: var(--academic-column-gap);
   align-items: start;
-  padding: 0.75rem 0 3rem;
+  padding: 0.5rem 0 3rem;
 }
 
 .academic-hero__aside {
