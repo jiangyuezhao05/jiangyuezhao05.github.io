@@ -14,6 +14,13 @@ body.academic-home-page .page__footer {
   margin-top: 0;
 }
 
+body.academic-home-page .page__footer footer {
+  width: min(100% - 3rem, 1020px);
+  max-width: 1020px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .academic-home {
   width: min(100% - 3rem, 1020px);
   margin: 0 auto;
@@ -354,6 +361,10 @@ body.academic-home-page .page__footer {
     width: min(100% - 2.2rem, 650px);
     padding-top: 1.8rem;
     font-size: 0.96rem;
+  }
+
+  body.academic-home-page .page__footer footer {
+    width: min(100% - 2.2rem, 650px);
   }
 
   .academic-hero {
