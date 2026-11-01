@@ -122,7 +122,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 # SEO Related
-google_site_verification :
+google_site_verification : "F6cNgI0JYaV8zXTyyhO9V8FpMQFaK4AJf_tej3Vl0mk"
 bing_site_verification   : "F1D2505492799D204E2EC75015504726"
 alexa_site_verification  :
 yandex_site_verification :
